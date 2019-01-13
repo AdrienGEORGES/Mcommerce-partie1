@@ -113,4 +113,9 @@ public class ProductController {
         }
         return map;
     }
+
+    @GetMapping(value = "/ProduitsTrier")
+    public List<Product> trierProduitsParOrdreAlphabetique() {
+        return productDao.findAllByOrderByNomAsc();
+    }
 }
