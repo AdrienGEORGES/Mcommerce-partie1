@@ -1,0 +1,162 @@
+{
+	"id": "114ea825-7345-40d3-b863-efd6e8d344f6",
+	"name": "OpenClassroom SpringBoot",
+	"allTests": [],
+	"timestamp": "2019-01-13T15:32:08.920Z",
+	"collection_id": "0756c792-12de-4e1e-b523-79f244406cbd",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "0756c792-12de-4e1e-b523-79f244406cbd",
+		"name": "OpenClassroom SpringBoot",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"4f3e8e49-6768-41a4-9789-ae1b2c391417",
+			"545032a5-e2b1-455d-9a47-24f98d5ba96f",
+			"f628cb49-89bc-4edb-a563-14eac281ebb6"
+		],
+		"folders_order": [],
+		"owner": "5967480",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "exo 1",
+			"id": "4f3e8e49-6768-41a4-9789-ae1b2c391417",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"247"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "247",
+			"totalRequestTime": "247",
+			"iterationResults": {}
+		},
+		{
+			"name": "exo 2",
+			"id": "545032a5-e2b1-455d-9a47-24f98d5ba96f",
+			"url": "http://localhost:9090/ProduitsTrier",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"40"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "40",
+			"totalRequestTime": "40",
+			"iterationResults": {}
+		},
+		{
+			"name": "exo 3",
+			"id": "f628cb49-89bc-4edb-a563-14eac281ebb6",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"115"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "115",
+			"totalRequestTime": "115",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 402,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "exo 1",
+			"id": "4f3e8e49-6768-41a4-9789-ae1b2c391417",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2019-01-13T15:32:08.920Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "exo 2",
+			"id": "545032a5-e2b1-455d-9a47-24f98d5ba96f",
+			"url": "http://localhost:9090/ProduitsTrier",
+			"time": "2019-01-13T15:32:08.920Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "exo 3",
+			"id": "f628cb49-89bc-4edb-a563-14eac281ebb6",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-01-13T15:32:08.920Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
